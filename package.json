@@ -2,7 +2,8 @@
   "name": "prototype-with-pug",
   "version": "1.0.0",
   "scripts": {
-    "build": "pug templates -o dist"
+    "build": "pug templates -o dist",
+    "watch": "pug -w templates -o dist"
   },
   "dependencies": {
     "pug": "^3.0.3"
